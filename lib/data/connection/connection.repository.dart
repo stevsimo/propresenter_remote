@@ -8,10 +8,10 @@ ConnectionRepository connectionRepository(ConnectionRepositoryRef ref) {
   return ConnectionRepository(
     client: ProApiClient(
       ProSettings(
-        host: '10.10.5.145',
-        port: 56789,
-        remotePass: 'admin',
-        sdPass: 'admin',
+        host: '',
+        port: 0,
+        remotePass: '',
+        sdPass: '',
       ),
     ),
   );
